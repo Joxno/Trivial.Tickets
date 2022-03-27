@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32317.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trivial.Tickets.API", "Trivial.Tickets.API\Trivial.Tickets.API.csproj", "{F2B9E131-2FC9-4A34-B4CE-8662FAB863FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trivial.Tickets.API.Tests", "Trivial.Tickets.API.Tests\Trivial.Tickets.API.Tests.csproj", "{AAECF69A-F9F5-47F8-B4E6-9E209E6DD7D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2B9E131-2FC9-4A34-B4CE-8662FAB863FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B9E131-2FC9-4A34-B4CE-8662FAB863FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B9E131-2FC9-4A34-B4CE-8662FAB863FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B9E131-2FC9-4A34-B4CE-8662FAB863FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAECF69A-F9F5-47F8-B4E6-9E209E6DD7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAECF69A-F9F5-47F8-B4E6-9E209E6DD7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAECF69A-F9F5-47F8-B4E6-9E209E6DD7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAECF69A-F9F5-47F8-B4E6-9E209E6DD7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {465A99E9-1497-4A0E-809B-D234DB453D70}
+	EndGlobalSection
+EndGlobal
