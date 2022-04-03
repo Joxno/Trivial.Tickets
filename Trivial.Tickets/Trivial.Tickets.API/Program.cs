@@ -1,25 +1,27 @@
-var builder = WebApplication.CreateBuilder(args);
+using Trivial.Tickets.API;
 
-// Add services to the container.
+var t_Builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+
+t_Builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+t_Builder.Services.AddEndpointsApiExplorer();
+t_Builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
+DIBindings.ApplyBindings(t_Builder);
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+var t_App = t_Builder.Build();
+
+if (t_App.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    t_App.UseSwagger();
+    t_App.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+t_App.UseHttpsRedirection();
 
-app.UseAuthorization();
+t_App.UseAuthorization();
 
-app.MapControllers();
+t_App.MapControllers();
 
-app.Run();
+t_App.Run();

@@ -16,8 +16,12 @@
   <ItemGroup>
     <Folder Include="DTOs\" />
     <Folder Include="Factories\" />
-    <Folder Include="Repositories\" />
-    <Folder Include="Services\" />
+    <Folder Include="Converters\" />
+    <Folder Include="Configuration\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Trivial.Tickets.Utility\Trivial.Tickets.Utility.csproj" />
   </ItemGroup>
 
 </Project>
